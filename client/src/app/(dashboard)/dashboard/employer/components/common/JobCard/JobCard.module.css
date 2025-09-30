@@ -1,0 +1,108 @@
+.jobCard {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #BCBCEE;
+    overflow: hidden;
+}
+
+
+
+.top {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.statusWithAction {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.editAction {
+    position: relative;
+}
+
+.editButton {
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    padding: 5px 12px;
+    color: #333333;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.editButton:hover {
+    background: #f9f9f9;
+}
+
+.companyNameWithTitle {
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 10px;
+}
+
+.companyName {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B6B6B;
+    margin-bottom: 5px;
+}
+
+.jobTitle {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.jobInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.jobInfo li {
+    font-size: 16px;
+    font-weight: 500;
+    gap: 10;
+    display: flex;
+    color: #6B6B6B;
+}
+
+.jobInfo li:last-child {
+    color: #C6A731;
+}
+.jobInfo li svg{
+    margin-top: 2px;
+}
+.bottom {
+    background: #F9F9FF;
+    border-top: 1px solid #BCBCEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B6B6B;
+}
+
+.viewDetails {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+.viewDetails:hover {
+    background: #38338B;
+
+    color: #fff;
+}

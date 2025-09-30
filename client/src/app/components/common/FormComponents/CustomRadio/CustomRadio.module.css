@@ -1,0 +1,59 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.error {
+    color: #FF6E6E;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.label {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.radioInputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.verticalRadio{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.radioInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.radioInput span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    background: #fff;
+    border-radius: 40px;
+    outline: 2px solid #A1A1A1;
+}
+
+.radioInput .selected {
+    background: #35398F;
+    border: 2px solid #fff;
+    outline: 2px solid #35398F;
+}
+
+.radioInput p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #303030;
+}

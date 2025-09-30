@@ -1,0 +1,77 @@
+.billingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.candidates {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.candidates th {
+    font-size: 16px;
+    color: #6B6B6B;
+    font-weight: 600;
+}
+
+.candidates td {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.candidates tr {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.candidates td,
+.candidates th {
+    padding: 15px 20px;
+}
+
+.downloadLink {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+
+.downloadLink:hover {
+    color: #2563eb;
+}
+.cardName{
+    background: red;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.cardNumber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cardNumber svg {
+    color: #CCCCCC;
+}
+
+.defaultbutton {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #F0F0F0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #858585;
+}
+
+.defaultbutton:hover {
+    opacity: 0.7;
+}

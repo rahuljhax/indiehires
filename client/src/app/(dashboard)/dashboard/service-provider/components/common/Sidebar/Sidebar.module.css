@@ -1,0 +1,64 @@
+.sidePanel {
+    width: 300px;
+    background: #fff;
+    height: 100vh;
+    box-shadow: 6px 0 7.6px 0 #DBDBE933;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.navLinks {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+}
+
+.navLinks li {}
+
+.link {
+    padding: 15px 30px;
+    color: #6B6B6B;
+    font-size: 18;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 20;
+    flex-direction: 'row';
+}
+
+.link:hover,
+.logout:hover,
+.activeLink {
+    cursor: pointer;
+    color: #38338B;
+    background: #EBEBFF;
+}
+
+.icon {
+    color: blue;
+}
+
+.logout {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #ADA9A9;
+    font-size: 18;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 20;
+    padding: 15px 30px;
+}

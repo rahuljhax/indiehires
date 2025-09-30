@@ -1,0 +1,18 @@
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6B6B6B;
+}

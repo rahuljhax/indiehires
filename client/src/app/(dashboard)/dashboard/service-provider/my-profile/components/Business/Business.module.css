@@ -1,0 +1,67 @@
+.businessContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profileCreatorInfo,
+.businessInfo,
+.billingAddress,
+.security,
+.serviceInfo {
+    padding: 30px;
+    border-radius: 8px;
+    background: white;
+}
+.actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profileBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profileImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    border: 1px solid #ccc;
+}
+.label {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.infoText {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #6A6A6A;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.uploadButton{
+    position: relative;
+    cursor: pointer;
+}
+.uploadButton input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}

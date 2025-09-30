@@ -1,0 +1,26 @@
+.stepTracker {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.steps {
+    display: flex;
+    list-style: none;
+}
+.steps li{
+
+}
+
+.steps li span{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid ;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.titleWithLink {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+
+
+.viewAll {
+    font-size: 14px;
+    font-weight: 600;
+    color: #02BAEC;
+}
+

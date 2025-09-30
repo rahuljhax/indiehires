@@ -1,0 +1,42 @@
+.settingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 0;
+}
+.titleWithSubTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.notificationBoxes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.notificationTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.notificationBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notificationContent p:first-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    margin-bottom: 8px;
+}
+
+.notificationContent p:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B6B6B;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.dashboardLayout {
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    background: #F4F4F8;
+}
+
+.contentBox {
+    padding: 10px 20px;
+    padding-right: 40px;
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B6B6B;
+    margin-top: 5px;
+}
+
+.viewAll {
+    font-weight: 600;
+    font-size: 14px;
+    color: #02BAEC;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+input[type=file]::file-selector-button {
+    background-color: #fff;
+    color: #2584E2;
+    border: 0px;
+    border-right: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    margin-right: 20px;
+    transition: .5s;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #eee;
+    border: 0px;
+    border-right: 1px solid #e5e5e5;
+}
+
+/* Targets Jodit editor content */
+.jodit-wysiwyg {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+
+/* ====================================== */
+
+/* Date Picker Custom CSS */
+.react-datepicker__calendar-icon {
+    fill: #dcdcdc !important;
+    padding-left: 10px;
+}
+
+.react-datepicker__view-calendar-icon input {
+    padding-left: 30px !important;
+}
+
+.react-datepicker__input-container {
+    align-items: center !important;
+    display: flex !important;
+}
+
+/* ====================================== */

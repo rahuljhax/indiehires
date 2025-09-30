@@ -1,0 +1,30 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.error {
+    color: #FF6E6E;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.label {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.label span {
+    color: #FF6E6E;
+}
+
+.editor {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

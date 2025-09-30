@@ -1,0 +1,38 @@
+.summaryInsights {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6B6B6B;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info li span {
+    display: block;
+    flex: 1;
+}
+
+.info li span:last-child {
+    color: #333333;
+}

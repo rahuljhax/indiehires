@@ -1,0 +1,74 @@
+.totlaApplicants {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.candidates {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.candidates th {
+    font-size: 16px;
+    color: #6B6B6B;
+    font-weight: 600;
+}
+
+.candidates td {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.candidates tr {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.candidates td,
+.candidates th {
+    padding: 15px 20px;
+}
+
+.tableAction {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.actionButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tableAction button {
+    color: #F8BE42;
+    border: 1px solid #F8BE42;
+}
+
+.tableAction a {
+    color: #02BAEC;
+    border: 1px solid #02BAEC;
+}

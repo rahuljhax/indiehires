@@ -1,0 +1,49 @@
+.top {
+    display: flex;
+    padding: 20px 0;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.downArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.selectBox select {
+    height: 40px;
+    border-radius: 8px;
+    flex: 1;
+    padding: 5px 12px;
+    padding-right: 40px;
+    border: 1px solid #CED0F0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    appearance: none;
+    cursor: pointer;
+}
+
+
+.selectBox option {
+    font-weight: 500;
+    padding: 3px 10px;
+}
+
+.selectBox select:focus {
+    outline: none;
+}

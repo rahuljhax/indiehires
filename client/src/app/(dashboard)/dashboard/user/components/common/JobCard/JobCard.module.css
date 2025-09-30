@@ -1,0 +1,135 @@
+.jobCard {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #BCBCEE;
+    overflow: hidden;
+}
+
+
+
+.top {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 15px;
+}
+
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    border: 1px solid #DCDCDC;
+}
+
+.companyNameWithTitle {
+    flex: 1;
+}
+
+.companyName {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B6B6B;
+    margin-bottom: 5px;
+}
+
+.jobTitle {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.jobInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.jobInfo li {
+    font-size: 16px;
+    font-weight: 500;
+    gap: 10;
+    display: flex;
+    color: #6B6B6B;
+}
+
+.jobInfo li svg {
+    margin-top: 2px;
+}
+
+.bottom {
+    background: #F9F9FF;
+    border-top: 1px solid #BCBCEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.viewDetails {
+    font-size: 14px;
+    font-weight: 600;
+    color: #35398F;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.viewDetails:hover {
+    text-decoration: underline;
+}
+
+/* =========================================== */
+/* Saved Card Styles  */
+.savedCard {
+    background: #EDFCFF;
+    box-shadow: 0px 4px 12.2px 0px #C9F6FF;
+    border: 1px solid #62E5FF;
+}
+
+.savedCard .bottom {
+    background: #EDFCFF;
+    border: none;
+}
+
+.savedCard .viewDetails {
+    background: #35398F;
+    border: 1px solid #22CCED;
+    color: white;
+}
+
+.savedCard .viewDetails:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.saveIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1px solid #D2F8FF;
+    cursor: pointer;
+}
+
+.saveIcon svg {
+    fill: #22CCED;
+    color: #22CCED;
+}

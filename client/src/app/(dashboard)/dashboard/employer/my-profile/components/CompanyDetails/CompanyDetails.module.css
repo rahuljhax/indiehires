@@ -1,0 +1,29 @@
+.companyDetailsContainer{
+    margin: 30px 0;
+}
+.titleWithEdit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    color: #2584E2;
+    display: block;
+    background: #ECF6FF;
+    cursor: pointer;
+}
+
+.editIcon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.editIcon:hover{
+    opacity: 0.7;
+}

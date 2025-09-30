@@ -1,0 +1,26 @@
+.subscriptionContainer {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.tabs {
+    border-bottom: 1px solid #CDC9C9;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.tabs li {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6B6B6B;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    color: #333333;
+    border-bottom: 4px solid #38338B;
+}

@@ -1,0 +1,78 @@
+.card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #E7ECFA;
+    border-radius: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.activeCard {
+    background: linear-gradient(180deg, #DBE5FF 0%, #FFFFFF 75.48%);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.planDesc {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B6B6B;
+    line-height: 150%;
+}
+
+.pricingBilling {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.pricingBilling p:first-child {
+    font-size: 18px;
+    color: #6B6B6B;
+    font-weight: 500;
+}
+
+.pricingBilling p:first-child span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #38338B;
+}
+
+.pricingBilling p:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B6B6B;
+}
+
+.benefits {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.benefits li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 150%;
+}
+
+.benefits li span {
+    color: #33748B;
+    padding-top: 2px;
+}

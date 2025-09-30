@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

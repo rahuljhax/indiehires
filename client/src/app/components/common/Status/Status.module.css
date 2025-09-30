@@ -1,0 +1,24 @@
+.status {
+    background: #DEF6DF;
+    border-radius: 30px;
+    padding: 3px 10px;
+    padding-left: 25px;
+    color: #307D34;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.status::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #307D34;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
