@@ -60,7 +60,7 @@ npm run dev
 ```bash
 npm run client:build
 ```
-<!-- 
+
 ## Features
 
 ### Client (Next.js)
@@ -70,7 +70,7 @@ npm run client:build
 - **User Profiles**: Comprehensive profile management for all user types
 - **Subscription System**: Built-in subscription and billing management
 - **Responsive Design**: Mobile-friendly interface
-
+<!-- 
 ### Planned Server Features
 - RESTful API with Express.js
 - MongoDB database integration
